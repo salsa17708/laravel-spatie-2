@@ -37,8 +37,8 @@ export default function Edit({ auth }) {
         post(route("roles.update", role.id), {
             onSuccess: () => {
                 Swal.fire({
-                    title: "Success!",
-                    text: "Data created successfully!",
+                    title: "yeeyy!",
+                    text: "Data udah di glow up!",
                     icon: "success",
                     showConfirmButton: false,
                     timer: 1500,

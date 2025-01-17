@@ -24,8 +24,8 @@ export default function Edit({auth}) {
         post(route('permissions.update', permission.id), {
             onSuccess: () => {
                 Swal.fire({
-                    title: 'Success!',
-                    text: 'Data updated successfully!',
+                    title: 'yeeay!',
+                    text: 'Data nya udh glow up!',
                     icon: 'success',
                     showConfirmButton: false,
                     timer: 1500

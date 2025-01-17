@@ -33,8 +33,8 @@ export default function Create({ auth }) {
         post(route("roles.store"), {
             onSuccess: () => {
                 Swal.fire({
-                    title: "Success!",
-                    text: "Data created successfully!",
+                    title: "yeeyy!",
+                    text: "Data udah jadii!",
                     icon: "success",
                     showConfirmButton: false,
                     timer: 1500,
